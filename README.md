@@ -12,7 +12,7 @@
 
 ## 🖥️ Projeto
 
-Se trata de um projeto proposto pela Kenzie, onde um usuário pode se cadastrar nessa plataforma e gerenciar seus conhecimentos adicionando, alterando e deletando tecnologias aprendidas no decorrer da sua vida.
+Se trata de um projeto proposto pela Kenzie, onde fomos instruídos a usar contextAPI para gerenciar o estado do carrinho de forma global evitando, assim, um possível prop drilling.
 
 ## 📲 Tecnologias
 
@@ -23,27 +23,21 @@ Esse projeto foi desenvolvido com as seguintes tecnologias/bibliotecas:
 <td> JavaScript</td>
 <td> React.JS</td>
 <td> Styled Components</td>
-<td> Yup</td>
-<td> API Rest</td>
+<td> contextAPI</td>
  </tr>
  <tr>
-<td> React Hook Form</td>
-<td> React Toastify</td>
+<td> React Hot Toast</td>
 <td> React Router Dom</td>
-<td> Axios</td>
-<td> 
-  <a href="https://www.figma.com/file/ccZ4uMlJtuBQISDzCCI1Vq/Kenzie-Hub?node-id=0%3A1/" target="_blank"> Figma </a> 
-</td>
+<td> API fake - local</td>
 
  </tr>
 </table>
 
 ## 🌟 Features
 
--   [ ] Adicionar, remover e excluir tecnologias cadastradas no perfil;
+-   [ ] Adicionar, remover e excluir produtos do carrinho;
 -   [ ] Responsividade;
--   [ ] Cadastro e Login de novos usuários;
--   [ ] Controle de autenticação.
+-   [ ] Atualização em tempo real da quantidade de itens no carrinho;
 
 ## 👨🏻‍💻 Executando o projeto
 
